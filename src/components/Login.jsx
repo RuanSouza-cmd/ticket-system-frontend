@@ -234,36 +234,10 @@ export default function Login({ onLogin, initialError = '' }) {
             </button>
           </form>
 
-          <div className="divider text-xs text-base-content/50">Credenciais de teste</div>
-
-          {/* Dicas de Credenciais */}
-          <div className="space-y-2 text-sm">
-            <div className="p-3 bg-warning/10 rounded-lg border border-warning/30 hover:bg-warning/20 transition-colors cursor-default">
-              <div className="flex items-center gap-2 mb-1">
-                <i className='bx bx-crown text-warning'></i>
-                <span className="font-semibold text-warning">Master</span>
-              </div>
-              <p className="text-xs opacity-80">
-                Email: <code className="bg-base-200 px-1 rounded select-all">master@example.com</code><br />
-                Senha: <code className="bg-base-200 px-1 rounded select-all">master123</code>
-              </p>
-            </div>
-
-            <div className="p-3 bg-info/10 rounded-lg border border-info/30 hover:bg-info/20 transition-colors cursor-default">
-              <div className="flex items-center gap-2 mb-1">
-                <i className='bx bx-user-circle text-info'></i>
-                <span className="font-semibold text-info">Operador</span>
-              </div>
-              <p className="text-xs opacity-80">
-                Crie usuários no painel Master
-              </p>
-            </div>
-          </div>
-
           {/* Rodapé */}
           <div className="text-center mt-6">
             <p className="text-xs text-base-content/50">
-              Sistema de Gestão de Chamados v1.0
+              Sistema de Gestão de Chamados v5.1
             </p>
           </div>
         </div>
